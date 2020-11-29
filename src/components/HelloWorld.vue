@@ -21,13 +21,18 @@
         <z-baseinput :options="options" :value="value"></z-baseinput>
       </el-col>
     </el-row>
+    <!-- <other1></other1> -->
   </div>
 </template>
 
 <script>
+// import other from "./other/other";
 import api from "./asset/api";
 export default {
   name: "HelloWorld",
+  //   components: {
+  //     other1: other
+  //   },
   data() {
     return {
       value: "",

@@ -12,9 +12,7 @@ export default {
       input: ""
     };
   },
-  created() {
-    console.log("this====", this);
-  }
+  created() {}
 };
 </script>
 
